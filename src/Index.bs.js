@@ -3,10 +3,8 @@
 var React = require("react");
 var ReactDom = require("react-dom");
 var ExampleStyles$MyReactApp = require("./ExampleStyles.bs.js");
-var BlinkingGreeting$MyReactApp = require("./BlinkingGreeting/BlinkingGreeting.bs.js");
 var FetchedDogPictures$MyReactApp = require("./FetchedDogPictures/FetchedDogPictures.bs.js");
-var ReducerFromReactJSDocs$MyReactApp = require("./ReducerFromReactJSDocs/ReducerFromReactJSDocs.bs.js");
-var ReasonUsingJSUsingReason$MyReactApp = require("./ReasonUsingJSUsingReason/ReasonUsingJSUsingReason.bs.js");
+
 
 var style = document.createElement("style");
 

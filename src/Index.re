@@ -28,24 +28,24 @@ let makeContainer = text => {
 };
 
 // All 4 examples.
-ReactDOMRe.render(
+/* ReactDOMRe.render(
   <BlinkingGreeting>
     {React.string("Hello!")}
   </BlinkingGreeting>,
   makeContainer("Blinking Greeting"),
-);
+); */
 
-ReactDOMRe.render(
+/* ReactDOMRe.render(
   <ReducerFromReactJSDocs />,
   makeContainer("Reducer From ReactJS Docs"),
-);
+); */
 
 ReactDOMRe.render(
   <FetchedDogPictures />,
   makeContainer("Fetched Dog Pictures"),
 );
 
-ReactDOMRe.render(
+/* ReactDOMRe.render(
   <ReasonUsingJSUsingReason />,
   makeContainer("Reason Using JS Using Reason"),
-);
+); */
